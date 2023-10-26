@@ -1200,7 +1200,7 @@ body {
     font-size: 13px;
     color: #fff;
   }
-
+  /*Input*/
   .input-group{
     margin-left: 10%;
     margin-right: 10%;
@@ -1214,7 +1214,6 @@ body {
 
   .form-control:focus {
     background-color: #2b2a2a;
-    /* O puedes aplicar un resplandor azul usando una sombra: */
     border-color: #d89606;
     color: #b17901;
     outline: 0;
@@ -1224,3 +1223,28 @@ body {
   .form-control::placeholder{
     color: #696968;
   }
+
+  /*Input suscripción*/
+  /*Input*/
+  .formCorreo{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .correo{
+    background-color:#2c2c2c;;
+    outline: none;
+    border: none;
+    color: #b17901;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .correo:focus {
+    background-color: #2c2c2c;;
+    border-color: #d89606;
+    color: #b17901;
+    outline: 0;
+    box-shadow: none;
+  }
+  
