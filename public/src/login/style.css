@@ -154,6 +154,13 @@ body{
     background-color: #7a7a9a;
 }
 
+.hide{
+    position: absolute;
+    transform: translateY(-300%);
+}
+
+
+
 /*Formulario responsivo*/
 @media screen and (max-width:750px){
     html {
