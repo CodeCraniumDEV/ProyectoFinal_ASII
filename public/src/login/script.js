@@ -57,7 +57,7 @@ loginForm.addEventListener("submit", function (event) {
     if (storedUserData && email === storedUserData.email && password === storedUserData.password) {
         // Inicio de sesión exitoso
         // Redirige al usuario a la página principal o a la página deseada
-        window.location.href = '../index.html'; // Cambia esto a la ruta de tu página principal
+        window.location.href = '../perfiluser/HomeUser.html'; // Cambia esto a la ruta de tu página principal
     } else {
         // Credenciales incorrectas, muestra un mensaje de error
         alert('Credenciales incorrectas. Por favor, inténtalo de nuevo.');
