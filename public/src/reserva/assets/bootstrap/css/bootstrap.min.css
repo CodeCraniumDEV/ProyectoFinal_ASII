@@ -1150,7 +1150,7 @@ body {
 	font-size: 14px;
 	line-height: 1.42857143;
 	color: #333;
-	background-color: #fff
+	background-color: #2c2c2c
 }
 
 input,
@@ -2886,8 +2886,8 @@ output {
 	padding: 6px 12px;
 	font-size: 14px;
 	line-height: 1.42857143;
-	color: #555;
-	background-color: #fff;
+	color: #fff;
+	background-color: #060606;
 	background-image: none;
 	border: 1px solid #ccc;
 	border-radius: 4px;
@@ -2956,7 +2956,7 @@ input[type=search] {
 }
 
 .form-group {
-	margin-bottom: 15px
+	margin-bottom: 15px;
 }
 
 .radio,
@@ -3057,7 +3057,7 @@ select.form-group-sm .form-control {
 }
 
 textarea.input-sm,
-textarea.form-group-sm .form-control,
+textarea.-sm .form-control,
 select[multiple].input-sm,
 select[multiple].form-group-sm .form-control {
 	height: auto
