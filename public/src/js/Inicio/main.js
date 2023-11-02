@@ -226,10 +226,31 @@
         clickable: true
       }
     });
+
+    //card carousel
+    (function ($) {
+      "use strict";
+      // Auto-scroll
+      $('#myCarousel').carousel({
+        interval: 5000
+      });
+    
+      // Control buttons
+      $('.next').click(function () {
+        $('.carousel').carousel('next');
+        return false;
+      });
+      $('.prev').click(function () {
+        $('.carousel').carousel('prev');
+        return false;
+      });
+    })
+      // On carousel scroll
+    //end card carousel
   
     /**
      * Initiate Pure Counter 
      */
     new PureCounter();
   
-  })()
+  })() 
