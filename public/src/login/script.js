@@ -63,3 +63,15 @@ loginForm.addEventListener("submit", function (event) {
         alert('Credenciales incorrectas. Por favor, inténtalo de nuevo.');
     }
 });
+
+// Obtén los datos almacenados en el almacenamiento local
+const storedUserData = JSON.parse(localStorage.getItem('userData'));
+
+if (storedUserData) {
+    console.log('Datos almacenados en el almacenamiento local:');
+    console.log('Nombre:', storedUserData.name);
+    console.log('Correo Electrónico:', storedUserData.email);
+    // No muestres la contraseña por razones de seguridad
+} else {
+    console.log('No hay datos almacenados en el almacenamiento local.');
+}
